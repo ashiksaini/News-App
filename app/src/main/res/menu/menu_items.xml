@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:iconTint="?attr/colorSecondary"
+        android:title="@string/search"
+        android:iconTintMode="multiply"
+        app:actionViewClass="androidx.appcompat.widget.SearchView$SearchAutoComplete"
+        app:showAsAction="ifRoom|collapseActionView"
+        tools:targetApi="o" />
+
+    <item
+        android:id="@+id/setting"
+        android:title="@string/setting"
+        android:onClick="Settings"
+        app:showAsAction="never"/>
+</menu>
